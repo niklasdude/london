@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relKeepGoing"
+    android:background="@color/whiterthanwhite"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:drawableLeft="@drawable/ic_money_gold"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:text="Watch Video and keep going!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/customize"
+        android:textAllCaps="false"
+        android:text="Customize Character"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_arrow_up_green"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/instagram"
+        android:textAllCaps="false"
+        android:text="Follow us on Instagram!"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_camera_gold"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="Love our app?"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_stargold"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:text="Unlock premium for free"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_money_gold"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:text="Give johnny some feedback"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_johnnygold"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>

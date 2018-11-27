@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginBottom="10dp"
+    android:background="@color/whiterthanwhite"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <ImageView
+        android:id="@+id/main_emoji"
+        android:src="@drawable/ic_face"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <TextView
+        android:id="@+id/main_name"
+        android:layout_marginLeft="3dp"
+        android:text="Niklasdude"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/main_emoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_toRightOf="@id/main_name"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="36dp">
+        <include layout="@layout/xxx_germany"></include>
+    </FrameLayout>
+
+</RelativeLayout>

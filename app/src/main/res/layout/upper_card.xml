@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="5dp"
+    android:weightSum="10"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.2"
+        android:id="@+id/tv_upper_location"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="London, UK"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_weight="9.2"
+        android:layout_margin="5dp"
+        android:id="@+id/upper_imageview"
+        android:src="@drawable/london"
+        android:scaleType="centerCrop"
+        android:layout_height="125dp"
+        android:layout_width="match_parent"
+        >
+    </ImageView>
+    <TextView
+        android:layout_weight="0.1"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="has a population of:"
+        android:id="@+id/tv_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="0.5"
+        android:textColor="@color/gold"
+        android:id="@+id/tv_upper_population"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_marginTop="5dp"
+        android:text="8.787.892"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

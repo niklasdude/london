@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#175676</color>
+    <color name="colorPrimaryDark">#BA324F</color>
+    <color name="colorAccent">#D62839</color>
+    <color name="colorFittingGreen">#99d628</color>
+    <color name="colorBackground">#4BA3C3</color>
+    <color name="colorCards">#CCE6F4</color>
+    <color name="gold">#ffd700</color>
+    <color name="reddy">#f41141</color>
+    <color name="greeny">#4ef442</color>
+    <color name="whiterthanwhite">#fff</color>
+    <color name="germany_one">#000</color>
+    <color name="germany_two">#DD0000</color>
+    <color name="germany_three">#FFCE00</color>
+</resources>

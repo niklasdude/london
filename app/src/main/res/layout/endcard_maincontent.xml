@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/whiterthanwhite"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    </FrameLayout>
+    <TextView
+        android:textSize="16sp"
+        android:text="Your trip had.."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvGameScore"
+        android:textColor="@color/gold"
+        android:textSize="72sp"
+        android:text="7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="16sp"
+        android:text="..stops.."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvPersonalMessage"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:text="Not bad for a roundtrip!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="Try again or keep going!"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </FrameLayout>
+</LinearLayout>

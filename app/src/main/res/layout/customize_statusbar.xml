@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/whiterthanwhite"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:id="@+id/tv_backCustom"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:text="Main menu"
+        android:drawableLeft="@drawable/ic_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:drawableRight="@drawable/ic_arrow_up_green"
+        android:textSize="16sp"
+        android:textColor="@color/whiterthanwhite"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:id="@+id/tv_saveOptions"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:text="save changes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

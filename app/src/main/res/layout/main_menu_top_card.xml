@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/driver_location"
+        android:textStyle="bold"
+        android:textColor="#4286f4"
+        android:textSize="24dp"
+        android:text="New York State"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="10sp"
+        android:text="Commisioner of Motor Vehicles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+        <ImageView
+            android:src="@drawable/ic_person"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textAlignment="center"
+                android:textColor="#f46e41"
+                android:text="DRIVER LICENCE"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/driver_id"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:text="Larry, Larryson"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:text="Anytown NY 12345"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/driver_level"
+                android:paddingLeft="20dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Licence Level: 0"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
